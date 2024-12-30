@@ -59,3 +59,77 @@ ChessGameProject/
 -Save Game: Option to save your game and resume later.
 
 -View Game History: Review past games using the database.
+
+
+
+
+
+This project is a fully functional chess game developed in Java. It includes essential gameplay mechanics, robust error handling, seamless component integration, and advanced event handling to deliver an engaging and reliable user experience.
+
+---
+
+## Key Development Tasks
+
+### 1. Core Feature Implementation
+- **Chessboard Setup**:
+  - 8x8 board initialized with standard chess starting positions.
+  - All chess pieces (pawns, rooks, knights, bishops, queen, and king) are fully implemented.
+  
+- **Movement and Rules**:
+  - Validations for piece-specific movements (e.g., bishops move diagonally, knights in an "L" shape).
+  - Rules enforced, such as castling, en passant, and pawn promotion.
+  
+- **Game State Management**:
+  - Turn-based gameplay.
+  - Check, checkmate, stalemate, and draw detection.
+
+---
+
+### 2. Error Handling and Robustness
+- **Input Validation**:
+  - Ensures user inputs are within valid bounds.
+  - Prevents invalid moves and provides descriptive error messages.
+
+- **Edge Case Handling**:
+  - Handles complex scenarios like threefold repetition and insufficient material for a checkmate.
+  
+- **Database Error Management**:
+  - Implements try-catch blocks for database connectivity issues.
+  - Displays meaningful error messages for SQL exceptions.
+  
+- **GUI Fault Tolerance**:
+  - Prevents the application from crashing due to unexpected user actions.
+
+---
+
+### 3. Integration of Components
+- **GUI and Backend Logic**:
+  - Real-time updates to the graphical interface after each move.
+  - Integration of user inputs with the game engine and database operations.
+
+- **Database Connectivity**:
+  - Player profiles, match results, and move histories stored and retrieved from a MySQL database.
+  
+- **Testing and Debugging**:
+  - Ensures all components function cohesively without conflicts.
+
+---
+
+### 4. Event Handling and Processing
+- **User Interaction**:
+  - Mouse-based controls for selecting and moving pieces.
+  - Highlights valid moves when a piece is selected.
+
+- **Timers and Clocks**:
+  - Implements a chess clock for timed gameplay.
+  - Automatically triggers events when a player's time runs out.
+
+- **Real-Time Updates**:
+  - Dynamic board updates based on player actions.
+  
+- **Undo/Redo Functionality**:
+  - Allows users to reverse or redo moves to improve gameplay flexibility.
+
+---
+
+This project is designed to be scalable and maintainable, ensuring a smooth and enjoyable chess experience for all users.
