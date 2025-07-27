@@ -1,4 +1,5 @@
-# 🖤 Team Quantum Chess Game ♟️
+# 🖤 Chess Game ♟️
+This PORJECT  is not create by me , it is only for study , analyze prepose.  I want to do a deep study of working of this project ...
 
 ## 📋 Table of Contents
 - [Introduction](#introduction)
